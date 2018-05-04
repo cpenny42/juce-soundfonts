@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="JUCE-Soundfonts" projectType="guiapp" jucerVersion="5.3.1">
+  <MAINGROUP id="xT7mrZ" name="JUCE-Soundfonts">
+    <GROUP id="{373B79FD-5E06-5330-F962-05ADE8FA983C}" name="Source">
+      <GROUP id="{52FE1230-8B89-40FA-38F2-A40EC36E5D4A}" name="Fluidlite">
+        <GROUP id="{DE275961-9998-4568-00D6-0F87AA1926FA}" name="include">
+          <GROUP id="{F33BB687-3181-2F1A-F19E-8BBB50C83CF1}" name="fluidsynth">
+            <FILE id="S5O59Z" name="gen.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/gen.h"/>
+            <FILE id="PSl9Ph" name="log.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/log.h"/>
+            <FILE id="Jn6NNK" name="misc.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/misc.h"/>
+            <FILE id="vuYoV1" name="mod.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/mod.h"/>
+            <FILE id="j2zfRn" name="ramsfont.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/ramsfont.h"/>
+            <FILE id="bTqzPe" name="settings.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/settings.h"/>
+            <FILE id="L4bran" name="sfont.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/sfont.h"/>
+            <FILE id="aYqVlN" name="synth.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/synth.h"/>
+            <FILE id="RkdnJ5" name="types.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/types.h"/>
+            <FILE id="vdxXzo" name="version.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/version.h"/>
+            <FILE id="lJHAQW" name="voice.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidsynth/voice.h"/>
+          </GROUP>
+          <FILE id="UER6ze" name="fluidlite.h" compile="0" resource="0" file="Source/Fluidlite/include/fluidlite.h"/>
+        </GROUP>
+        <GROUP id="{E795BFC2-5243-15CA-D91C-E49029F8A307}" name="src">
+          <FILE id="IioZ72" name="fluid_chan.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_chan.c"/>
+          <FILE id="KyCQMR" name="fluid_chan.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_chan.h"/>
+          <FILE id="D8cKQZ" name="fluid_chorus.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_chorus.c"/>
+          <FILE id="Qglbz8" name="fluid_chorus.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_chorus.h"/>
+          <FILE id="vdLvkn" name="fluid_config.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_config.h"/>
+          <FILE id="nvxyf6" name="fluid_conv.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_conv.c"/>
+          <FILE id="mmI7XN" name="fluid_conv.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_conv.h"/>
+          <FILE id="bx9wtg" name="fluid_defsfont.c" compile="1" resource="0"
+                file="Source/Fluidlite/src/fluid_defsfont.c"/>
+          <FILE id="Yx871B" name="fluid_defsfont.h" compile="0" resource="0"
+                file="Source/Fluidlite/src/fluid_defsfont.h"/>
+          <FILE id="uv1irW" name="fluid_dsp_float.c" compile="1" resource="0"
+                file="Source/Fluidlite/src/fluid_dsp_float.c"/>
+          <FILE id="yeWnCl" name="fluid_dsp_simple.c" compile="1" resource="0"
+                file="Source/Fluidlite/src/fluid_dsp_simple.c"/>
+          <FILE id="cZANRC" name="fluid_gen.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_gen.c"/>
+          <FILE id="uykvVi" name="fluid_gen.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_gen.h"/>
+          <FILE id="riG5BY" name="fluid_hash.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_hash.c"/>
+          <FILE id="NkfzwC" name="fluid_hash.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_hash.h"/>
+          <FILE id="y73pMk" name="fluid_list.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_list.c"/>
+          <FILE id="BeBNF2" name="fluid_list.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_list.h"/>
+          <FILE id="YBrgua" name="fluid_midi.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_midi.h"/>
+          <FILE id="fNIdpz" name="fluid_mod.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_mod.c"/>
+          <FILE id="Yhchfh" name="fluid_mod.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_mod.h"/>
+          <FILE id="AnPqZg" name="fluid_phase.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_phase.h"/>
+          <FILE id="pqCZpl" name="fluid_ramsfont.c" compile="1" resource="0"
+                file="Source/Fluidlite/src/fluid_ramsfont.c"/>
+          <FILE id="CQsqya" name="fluid_ramsfont.h" compile="0" resource="0"
+                file="Source/Fluidlite/src/fluid_ramsfont.h"/>
+          <FILE id="X8JGHp" name="fluid_rev.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_rev.c"/>
+          <FILE id="eXmFVq" name="fluid_rev.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_rev.h"/>
+          <FILE id="rP1RiA" name="fluid_settings.c" compile="1" resource="0"
+                file="Source/Fluidlite/src/fluid_settings.c"/>
+          <FILE id="wuAS5v" name="fluid_settings.h" compile="0" resource="0"
+                file="Source/Fluidlite/src/fluid_settings.h"/>
+          <FILE id="DTF0M5" name="fluid_sfont.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_sfont.h"/>
+          <FILE id="u5rpaa" name="fluid_synth.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_synth.c"/>
+          <FILE id="ULwfSU" name="fluid_synth.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_synth.h"/>
+          <FILE id="rLIbW0" name="fluid_sys.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_sys.c"/>
+          <FILE id="Sa1Chq" name="fluid_sys.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_sys.h"/>
+          <FILE id="jFzIYH" name="fluid_tuning.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_tuning.c"/>
+          <FILE id="cfvUFI" name="fluid_tuning.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_tuning.h"/>
+          <FILE id="jg57M3" name="fluid_voice.c" compile="1" resource="0" file="Source/Fluidlite/src/fluid_voice.c"/>
+          <FILE id="mNO12b" name="fluid_voice.h" compile="0" resource="0" file="Source/Fluidlite/src/fluid_voice.h"/>
+          <FILE id="Ij3Zpw" name="fluidsynth.c" compile="1" resource="0" file="Source/Fluidlite/src/fluidsynth.c"/>
+          <FILE id="B7y07v" name="fluidsynth_priv.h" compile="0" resource="0"
+                file="Source/Fluidlite/src/fluidsynth_priv.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="HPFDgU" name="SoundfontAudioSource.cpp" compile="1" resource="0"
+            file="Source/SoundfontAudioSource.cpp"/>
+      <FILE id="EQzJMT" name="SoundfontAudioSource.h" compile="0" resource="0"
+            file="Source/SoundfontAudioSource.h"/>
+      <FILE id="G445xu" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="e1qD4v" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="BSipTA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <ANDROIDSTUDIO targetFolder="Builds/Android">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
