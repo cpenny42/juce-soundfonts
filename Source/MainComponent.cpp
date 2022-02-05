@@ -103,7 +103,7 @@ void MainComponent::comboBoxChanged (ComboBox* comboBoxThatWasChanged)
         File soundfontFile = getFileFromName (soundfontSelector->getText());
         if (! soundfontPlayer.loadSoundfont (soundfontFile)) {
             // Error loading soundfont
-            AlertWindow::showMessageBox(AlertWindow::WarningIcon, "Invalid .sf2 File",
+            AlertWindow::showMessageBoxAsync(AlertWindow::WarningIcon, "Invalid .sf2 File",
                                         "Could not find your soundfont file: "
                                         + soundfontFile.getFullPathName());
         }
